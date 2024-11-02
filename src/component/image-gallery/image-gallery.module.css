@@ -1,0 +1,31 @@
+.main {
+  width: 1344px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  font-family: Peyda;
+}
+.gallery {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.bigCard {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+  object-position: center center;
+  transition-duration: 0.5s;
+  border-radius: 16px 16px 16px 16px;
+}
+.smallCard {
+  width: auto;
+  height: 240px;
+  object-fit: cover;
+  object-position: center center;
+  transition-duration: 0.5s;
+  border-radius: 16px 16px 16px 16px;
+}
